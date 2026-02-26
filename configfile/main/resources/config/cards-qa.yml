@@ -1,0 +1,14 @@
+
+
+
+build:
+  version: 1.0
+
+cards:
+  message: "welcome to eazybyte cards qa api"
+  contactDetails:
+    name: "mohameed-Developer "
+    email: "mohameed@gmail.com"
+  mobileNo:
+    - 7894563212
+    - 6552147896

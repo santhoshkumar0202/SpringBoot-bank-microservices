@@ -1,0 +1,12 @@
+
+build:
+  version: 2.0
+
+loans:
+  message: "welcome to eazybyte loans prod api"
+  contactDetails:
+    name: "jack-Developer prod "
+    email: "jack@gmail.com"
+  mobileNo:
+    - 7894163212
+    - 3652747896

@@ -1,0 +1,13 @@
+
+
+build:
+  version: 2.0
+
+accounts:
+  message: "welcome to eazybyte accounst qa api"
+  contactDetails:
+    name: "elis perry -qa Lead "
+    email: "perry@gmail.com"
+  mobileNo:
+    - 7894563327
+    - 3652147961

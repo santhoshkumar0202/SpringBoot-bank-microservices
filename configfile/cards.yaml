@@ -1,0 +1,15 @@
+
+
+
+
+build:
+  version: 3.0
+
+cards:
+  message: "welcome to eazybyte card local api"
+  contactDetails:
+    name: "jhon cena-Developer "
+    email: "jhon@gmail.com"
+  mobileNo:
+    - 7894563212
+    - 3652147896

@@ -1,0 +1,42 @@
+
+
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: git
+  #active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/santhoshkumar0202/Git-config-files.git
+      #native:
+         # search-locations: "file:///C://Microservices//section 6//v1-springboot-config//configfile"
+          #"classpath:/config"
+
+          timeout: 5
+          clone-on-start: true
+          default-label: main
+          force-pull: true
+
+
+server:
+  port: 8071
+encrypt:
+  key: "d4j3k3k3i3k3k3k3kss"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true

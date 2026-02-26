@@ -1,0 +1,12 @@
+
+build:
+  version: 3.0
+
+loans:
+  message: "welcome to eazybyte loans local api"
+  contactDetails:
+    name: "bobby-Developer "
+    email: "bobby@gmail.com"
+  mobileNo:
+    - 7894563212
+    - 3652147896

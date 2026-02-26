@@ -1,0 +1,14 @@
+
+
+
+build:
+  version: 1.0
+
+accounts:
+  message: "welcome to eazybyte accounst prod api"
+  contactDetails:
+    name: "tripple x -prod "
+    email: "tripplex@gmail.com"
+  mobileNo:
+    - 7894563213
+    - 3652147895

@@ -1,0 +1,12 @@
+
+build:
+  version: 3.0
+
+accounts:
+  message: "welcome to eazybyte accounst local api"
+  contactDetails:
+    name: "jhon cena-Developer "
+    email: "jhon@gmail.com"
+  mobileNo:
+    - 7894563212
+    - 3652147896

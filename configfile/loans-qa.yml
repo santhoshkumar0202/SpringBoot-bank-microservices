@@ -1,0 +1,12 @@
+
+build:
+  version: 1.0
+
+loans:
+  message: "welcome to eazybyte loans qa api"
+  contactDetails:
+    name: "dino- qa Lead "
+    email: "dinoqa@gmail.com"
+  mobileNo:
+    - 7894123212
+    - 3652321896
