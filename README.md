@@ -1,37 +1,37 @@
-#Bank Project
-##Eazy Bank is a modern financial application designed to demonstrate the implementation of microservices architecture using Java, Spring Boot, Spring Cloud, and various other cloud-native technologies. It consists of several services such as loan-service, card-service, account-service, and infrastructure components like config-server and gateway, orchestrated using Kubernetes and Helm.
+# Bank Project
+## Eazy Bank is a modern financial application designed to demonstrate the implementation of microservices architecture using Java, Spring Boot, Spring Cloud, and various other cloud-native technologies. It consists of several services such as loan-service, card-service, account-service, and infrastructure components like config-server and gateway, orchestrated using Kubernetes and Helm.
 
-##Features
+## Features
 loan-service, card-service, account-service: Individual microservices for handling different banking capabilities.
 config-server: Centralized configuration management for microservices.
 gateway: API Gateway for request routing, composition, and protocol translation.
 helm: Package manager for Kubernetes, simplifying deployment scripts.
 kubernetes: Container orchestration platform for automating deployment, scaling, and operations.
-##Documentation
+## Documentation
 Microservices are documented using Open API Specification and Swagger to provide a clear contract and interactive API docs.
 
-##Architecture
+## Architecture
 The microservices are sized and bounded contextually to ensure a domain-driven design. Docker plays a crucial role in containerization, creating lightweight, portable, self-sufficient containers from any application.
 
-##Docker Compose
+## Docker Compose
 Used for defining and running multi-container Docker applications, it allows us to manage the lifecycle of containers running our microservices.
 
-##Cloud Native and 15 Factor Methodology
+## Cloud Native and 15 Factor Methodology
 The application adheres to cloud-native principles and the comprehensive 15-factor methodology for building software-as-a-service apps.
 
-##Resilience
+## Resilience
 Resilience is built into the microservices using the RESILIENCE4J framework, providing fault tolerance and handling.
 
-##Observability and Monitoring
+## Observability and Monitoring
 Implemented using the Prometheus stack with Loki, Promtail, Tempo, and Grafana for deep insights and real-time monitoring of microservices.
 
-##Security
+## Security
 Microservices are secured with OAuth2, OpenID Connect, and Spring Security, ensuring robust authentication and authorization.
 
-##Event-Driven Architecture
+## Event-Driven Architecture
 Event-driven microservices with RabbitMQ, Kafka, Spring Cloud Functions, and Spring Cloud Stream provide asynchronicity and decoupled communication.
 
-##Kubernetes and Google Kubernetes Engine
+## Kubernetes and Google Kubernetes Engine
 Kubernetes is used for container orchestration, and GCP's Google Kubernetes Engine (GKE) provides a managed environment for deploying, managing, and scaling applications.
 
 Helm
@@ -40,18 +40,18 @@ Helm simplifies Kubernetes application deployment by managing Kubernetes manifes
 Commands Reference
 A list of most commonly used Docker, Kubernetes, and Helm commands is provided to manage the lifecycle of the application.
 
-Getting Started
+## Getting Started
 Instructions on setting up the project, building, and deploying the microservices.
 
-##Prerequisites
-**Java JDK 17
-**Spring Boot 3.2.2
-**Maven
-**Docker & Docker Compose
-**Kubernetes & Helm
-**GCP Account for GKE (Optional)
-**Installation
-##Step-by-step guide on how to install and run the services locally or on a cloud provider.
+## Prerequisites
+- **Java JDK 17**
+- **Spring Boot 3.2.2**
+- **Maven**
+- **Docker & Docker Compose**
+- **Kubernetes & Helm**
+- **GCP Account for GKE** (Optional)
+- **Installation**
+## Step-by-step guide on how to install and run the services locally or on a cloud provider.
 
 ##Configuration
 Details on configuring the services and infrastructure components.
